@@ -1,12 +1,11 @@
 import Header from '@/components/common/Header';
+import MapScene from '@/components/home/MapScene';
 
 export default function Home() {
   return (
     <>
-      <main>
-        <Header />
-        <>안녕하세요</>
-      </main>
+      <Header />
+      <MapScene />
     </>
   );
 }
