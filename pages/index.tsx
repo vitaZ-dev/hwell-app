@@ -27,6 +27,7 @@ export default function Home({ infos }: IProps) {
       <NextSeo
         title="건강증진센터 위치서비스"
         description="건강증진센터 위치서비스입니다"
+        canonical="https://hwell-app-gamma.vercel.app/"
       />
       <Header />
       <MapScene />
